@@ -1,0 +1,5 @@
+server.pid
+server.log
+__pycache__/
+*.pyc
+preview.png

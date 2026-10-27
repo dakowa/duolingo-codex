@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en-IE">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#087f68"><meta name="description" content="Small lessons. Big business brains. An interactive Junior Cycle Business Studies revision app for third-year students in Ireland.">
+  <link rel="manifest" href="./manifest.webmanifest"><link rel="icon" type="image/svg+xml" href="./icon.svg"><link rel="apple-touch-icon" href="./icon-192.png">
+  <title>Duolingo codex · Junior Cycle Business</title><link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to learning</a>
+<aside class="sidebar">
+  <a class="brand" href="#learn"><span class="brand-icon">b<span>↗</span></span><span>business<span class="brand-sub">DUOLINGO CODEX</span></span></a>
+  <div class="course-label">YOUR CLASSROOM, REIMAGINED</div>
+  <nav aria-label="Main navigation">
+    <a href="#learn" data-nav="learn"><span>▦</span> Learn <span class="nav-dot"></span></a>
+    <a href="#practice" data-nav="practice"><span>ϟ</span> Practice</a>
+    <a href="#notes" data-nav="notes"><span>▤</span> Study notes</a>
+    <a href="#progress" data-nav="progress"><span>◈</span> My progress</a>
+  </nav>
+  <div class="sidebar-bottom"><div class="ireland">🇮🇪 <div><strong>Made for Junior Cycle</strong><small>3rd year · Business Studies</small></div></div><button class="text-button" id="about-btn">ⓘ About & install</button></div>
+</aside>
+<div class="workspace"><header class="topbar"><span class="breadcrumb">Your learning journey <span>/</span> <strong id="page-name">Learn</strong></span><div class="top-stats"><span title="Consecutive days with a completed session">🔥 <strong id="streak">0</strong><small>day streak</small></span><span title="Experience points">✦ <strong id="xp">0</strong><small>XP</small></span><button class="avatar" aria-label="View my progress" id="profile-btn">You</button><button class="mobile-about" id="mobile-about" aria-label="About and install">⋯</button></div></header>
+<main id="main" tabindex="-1"></main><footer class="app-footer">Little steps. Real-world skills. <span>Junior Cycle Business Studies · Ireland</span></footer></div>
+<dialog id="lesson-dialog" aria-label="Business lesson"></dialog><dialog id="about-dialog" aria-label="About this app"></dialog>
+<div id="toast" role="status"></div>
+<script src="./course.js"></script><script src="./games.js"></script><script src="./app.js"></script>
+</body></html>
